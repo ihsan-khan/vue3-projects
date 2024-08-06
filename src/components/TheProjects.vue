@@ -4,49 +4,58 @@ import { ref } from 'vue';
 
 const cards = ref([
   {
-    title: 'Card Title 1',
+    title: 'Todo List',
     description: 'This is a brief description of the first card. It gives a short overview of the content.',
-    buttonText: 'Read More'
+    buttonText: 'Read More',
+    link:'/todo'
   },
   {
-    title: 'Card Title 2',
+    title: 'Random Quote Generator',
     description: 'This is a brief description of the second card. It gives a short overview of the content.',
-    buttonText: 'Learn More'
+    buttonText: 'Learn More',
+    link:'/todo'
   },
   {
     title: 'Card Title 3',
     description: 'This is a brief description of the third card. It gives a short overview of the content.',
-    buttonText: 'Discover'
+    buttonText: 'Discover',
+    link:'/todo'
   },
   {
     title: 'Card Title 4',
     description: 'This is a brief description of the first card. It gives a short overview of the content.',
-    buttonText: 'Read More'
+    buttonText: 'Read More',
+    link:'/todo'
   },
   {
     title: 'Card Title 5',
     description: 'This is a brief description of the second card. It gives a short overview of the content.',
-    buttonText: 'Learn More'
+    buttonText: 'Learn More',
+    link:'/todo'
   },
   {
     title: 'Card Title 6',
     description: 'This is a brief description of the third card. It gives a short overview of the content.',
-    buttonText: 'Discover'
+    buttonText: 'Discover',
+    link:'/todo'
   },
   {
     title: 'Card Title 7',
     description: 'This is a brief description of the first card. It gives a short overview of the content.',
-    buttonText: 'Read More'
+    buttonText: 'Read More',
+    link:'/todo'
   },
   {
     title: 'Card Title 8',
     description: 'This is a brief description of the second card. It gives a short overview of the content.',
-    buttonText: 'Learn More'
+    buttonText: 'Learn More',
+    link:'/todo'
   },
   {
     title: 'Card Title 9',
     description: 'This is a brief description of the third card. It gives a short overview of the content.',
-    buttonText: 'Discover'
+    buttonText: 'Discover',
+    link:'/todo'
   }
 ])
 
@@ -61,6 +70,7 @@ const cards = ref([
         :title="card.title" 
         :description="card.description" 
         :buttonText="card.buttonText" 
+        :link="card.link"
       />
     </div>
   </div>

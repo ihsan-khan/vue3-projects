@@ -5,13 +5,13 @@ import App from './App.vue'
 import { createRouter, createMemoryHistory } from 'vue-router'
 
 import TheProjects from './components/TheProjects.vue'
-import TheContact from './components/Contact.vue'
-import TheAbout from './components/About.vue'
+import TodoList from './components/TodoList.vue'
+import RandomQuoteGenerator from './components/RandomQuoteGenerator.vue'
 
 const routes = [
   { path: '/', component: TheProjects },
-  { path: '/about', component: TheAbout },
-  { path: '/contact', component: TheContact}
+  { path: '/todo', component: TodoList },
+  { path: '/random-quote-generator', component: RandomQuoteGenerator}
 ]
 
 const router = createRouter({
