@@ -16,10 +16,10 @@ const cards = ref([
     link:'/random-quote-generator'
   },
   {
-    title: 'Card Title 3',
+    title: 'The Calculator',
     description: 'This is a brief description of the third card. It gives a short overview of the content.',
     buttonText: 'Discover',
-    link:'/todo'
+    link:'/calculator'
   },
   {
     title: 'Card Title 4',
