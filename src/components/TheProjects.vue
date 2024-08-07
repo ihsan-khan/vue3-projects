@@ -13,7 +13,7 @@ const cards = ref([
     title: 'Random Quote Generator',
     description: 'This is a brief description of the second card. It gives a short overview of the content.',
     buttonText: 'Learn More',
-    link:'/todo'
+    link:'/random-quote-generator'
   },
   {
     title: 'Card Title 3',
