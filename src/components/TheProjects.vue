@@ -17,15 +17,15 @@ const cards = ref([
   },
   {
     title: 'The Calculator',
-    description: 'This is a brief description of the third card. It gives a short overview of the content.',
+    description: 'ref, computed and eval()',
     buttonText: 'Discover',
     link:'/calculator'
   },
   {
-    title: 'Card Title 4',
-    description: 'This is a brief description of the first card. It gives a short overview of the content.',
-    buttonText: 'Read More',
-    link:'/todo'
+    title: 'The Accordion',
+    description: 'v-for, map function, spread operator and ref',
+    buttonText: 'Review Accordion',
+    link:'/accordion'
   },
   {
     title: 'Card Title 5',
