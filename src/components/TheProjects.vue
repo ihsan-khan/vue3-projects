@@ -28,10 +28,10 @@ const cards = ref([
     link:'/accordion'
   },
   {
-    title: 'Card Title 5',
+    title: 'Form Validation',
     description: 'This is a brief description of the second card. It gives a short overview of the content.',
     buttonText: 'Learn More',
-    link:'/todo'
+    link:'/form-validation'
   },
   {
     title: 'Card Title 6',

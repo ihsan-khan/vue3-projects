@@ -9,13 +9,15 @@ import TodoList from './components/TodoList.vue'
 import RandomQuoteGenerator from './components/RandomQuoteGenerator.vue'
 import TheCalculator from './components/TheCalculator.vue'
 import TheAccordion from './components/TheAccordion.vue'
+import FormValidation from './components/FormValidation.vue'
 
 const routes = [
   { path: '/', component: TheProjects },
   { path: '/todo', component: TodoList },
   { path: '/random-quote-generator', component: RandomQuoteGenerator},
   { path: '/calculator', component: TheCalculator},
-  { path: '/accordion', component: TheAccordion}
+  { path: '/accordion', component: TheAccordion},
+  { path: '/form-validation', component: FormValidation}
 ]
 
 const router = createRouter({
