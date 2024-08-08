@@ -14,6 +14,7 @@ import ProgressStep from './components/ProgressStep.vue'
 import PasswordGenerator from './components/PasswordGenerator.vue'
 import DadJokes from './components/DadJokes.vue'
 import GithubUserSearch from './components/GithubUserSearch.vue'
+import TheWiki from './components/TheWiki.vue'
 
 const routes = [
   { path: '/', component: TheProjects },
@@ -26,6 +27,7 @@ const routes = [
   { path: '/password-generator', component: PasswordGenerator},
   { path: '/dad-jokes', component: DadJokes},
   { path: '/github-user-search', component: GithubUserSearch},
+  { path: '/wiki', component: TheWiki},
 ]
 
 const router = createRouter({
