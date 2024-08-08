@@ -4,7 +4,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import { createRouter, createMemoryHistory } from 'vue-router'
 
-import TheProjects from './components/TheProjects.vue'
+import BeginnerProjects from './components/BeginnerProjects.vue'
 import TodoList from './components/TodoList.vue'
 import RandomQuoteGenerator from './components/RandomQuoteGenerator.vue'
 import TheCalculator from './components/TheCalculator.vue'
@@ -15,9 +15,13 @@ import PasswordGenerator from './components/PasswordGenerator.vue'
 import DadJokes from './components/DadJokes.vue'
 import GithubUserSearch from './components/GithubUserSearch.vue'
 import WikiSearch from './components/WikiSearch.vue'
+import IntermediateProjects from './components/IntermediateProjects.vue'
+import AdvancedProjects from './components/AdvancedProjects.vue'
 
 const routes = [
-  { path: '/', component: TheProjects },
+  { path: '/', component: BeginnerProjects },
+  { path: '/intermediate-projects', component: IntermediateProjects },
+  { path: '/advanced-projects', component: AdvancedProjects },
   { path: '/todo', component: TodoList },
   { path: '/random-quote-generator', component: RandomQuoteGenerator},
   { path: '/calculator', component: TheCalculator},
