@@ -46,10 +46,10 @@ const cards = ref([
     link:'/password-generator'
   },
   {
-    title: 'Card Title 8',
+    title: 'Dad Jokes',
     description: 'This is a brief description of the second card. It gives a short overview of the content.',
     buttonText: 'Learn More',
-    link:'/todo'
+    link:'/dad-jokes'
   },
   {
     title: 'Card Title 9',
