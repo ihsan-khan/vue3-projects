@@ -10,6 +10,7 @@ import RandomQuoteGenerator from './components/RandomQuoteGenerator.vue'
 import TheCalculator from './components/TheCalculator.vue'
 import TheAccordion from './components/TheAccordion.vue'
 import FormValidation from './components/FormValidation.vue'
+import ProgressStep from './components/ProgressStep.vue'
 
 const routes = [
   { path: '/', component: TheProjects },
@@ -17,7 +18,8 @@ const routes = [
   { path: '/random-quote-generator', component: RandomQuoteGenerator},
   { path: '/calculator', component: TheCalculator},
   { path: '/accordion', component: TheAccordion},
-  { path: '/form-validation', component: FormValidation}
+  { path: '/form-validation', component: FormValidation},
+  { path: '/progress-step', component: ProgressStep}
 ]
 
 const router = createRouter({

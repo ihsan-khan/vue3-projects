@@ -34,10 +34,10 @@ const cards = ref([
     link:'/form-validation'
   },
   {
-    title: 'Card Title 6',
+    title: 'Progress Step',
     description: 'This is a brief description of the third card. It gives a short overview of the content.',
     buttonText: 'Discover',
-    link:'/todo'
+    link:'/progress-step'
   },
   {
     title: 'Card Title 7',
