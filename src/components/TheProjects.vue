@@ -40,10 +40,10 @@ const cards = ref([
     link:'/progress-step'
   },
   {
-    title: 'Card Title 7',
+    title: 'Password Generator',
     description: 'This is a brief description of the first card. It gives a short overview of the content.',
     buttonText: 'Read More',
-    link:'/todo'
+    link:'/password-generator'
   },
   {
     title: 'Card Title 8',

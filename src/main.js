@@ -11,6 +11,7 @@ import TheCalculator from './components/TheCalculator.vue'
 import TheAccordion from './components/TheAccordion.vue'
 import FormValidation from './components/FormValidation.vue'
 import ProgressStep from './components/ProgressStep.vue'
+import PasswordGenerator from './components/PasswordGenerator.vue'
 
 const routes = [
   { path: '/', component: TheProjects },
@@ -19,7 +20,8 @@ const routes = [
   { path: '/calculator', component: TheCalculator},
   { path: '/accordion', component: TheAccordion},
   { path: '/form-validation', component: FormValidation},
-  { path: '/progress-step', component: ProgressStep}
+  { path: '/progress-step', component: ProgressStep},
+  { path: '/password-generator', component: PasswordGenerator},
 ]
 
 const router = createRouter({
