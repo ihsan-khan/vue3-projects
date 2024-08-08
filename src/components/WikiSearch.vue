@@ -8,6 +8,9 @@ const error = ref(null)
 const isDarkTheme = ref(false)
 
 const searchWikipedia = async (query) => {
+  // encodeURIComponent encodes the query string so that it can be safely included in a URL.
+  // Special characters in the query string (such as spaces, &, ?, =, etc.) 
+  // could interfere with the URL's structure or cause errors. 
   const encodedQuery = encodeURIComponent(query)
   const endpoint = `https://en.wikipedia.org/w/api.php?action=query&list=search&prop=info&inprop=url&utf8=&format=json&origin=*&srlimit=10&srsearch=${encodedQuery}`
 
@@ -24,7 +27,6 @@ const searchWikipedia = async (query) => {
       error.value = 'No results found.'
     }
   } catch (err) {
-    console.error('Error fetching data:', err)
     searchResults.value = []
     error.value = 'An error occurred while fetching data.'
   } finally {

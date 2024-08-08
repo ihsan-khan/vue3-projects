@@ -59,9 +59,9 @@ const cards = ref([
   },
   {
     title: 'The Wiki',
-    description: 'This is a brief description of the third card. It gives a short overview of the content.',
-    buttonText: 'Discover',
-    link:'/wiki'
+    description: 'ref, fetch',
+    buttonText: 'Visit Here',
+    link:'/wiki-search'
   }
 ])
 
