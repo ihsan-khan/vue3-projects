@@ -52,10 +52,10 @@ const cards = ref([
     link:'/dad-jokes'
   },
   {
-    title: 'Card Title 9',
+    title: 'Github User Search',
     description: 'This is a brief description of the third card. It gives a short overview of the content.',
     buttonText: 'Discover',
-    link:'/todo'
+    link:'/github-user-search'
   }
 ])
 
